@@ -72,6 +72,7 @@
   # Install new FFmpeg package
   sudo add-apt-repository -y ppa:ubuntuhandbook1/ffmpeg7
   sudo apt update -y
+  sudo apt-get upgrade && sudo apt-get dist-upgrade
   sudo apt install -y ffmpeg
   
   ###############################################################################
