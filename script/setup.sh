@@ -21,7 +21,7 @@
   echo "  INSTALL N8N BY JOHN LE"
   echo "======================================"
   echo ""
-  read -p "Please insert your domain (example: zenpr.net): " DOMAIN_NAME
+  read -p "Please insert your domain (example: domain.net): " DOMAIN_NAME
   read -p "Please insert your subdomain (if don't use subdomain, please ignore, example n8n): " SUBDOMAIN
   
   # Defined HOSTNAME
