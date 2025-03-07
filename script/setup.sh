@@ -70,6 +70,7 @@
   sudo apt autoremove -y
   
   # Install new FFmpeg package
+  sudo apt-get install -y python3-launchpadlib
   sudo add-apt-repository -y ppa:ubuntuhandbook1/ffmpeg7
   sudo apt update -y
   sudo apt-get upgrade && sudo apt-get dist-upgrade
